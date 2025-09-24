@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>LIBERTY Skopje — Production Program</title>
+  <style>
+    :root{
+      --accent:#0b5f8a;
+      --muted:#6b7280;
+      --card:#ffffff;
+      --bg:#f6f7fb;
+      --maxw:1100px;
+      --pad:18px;
+      --glass: rgba(255,255,255,0.8);
+    }
+    *{box-sizing:border-box}
+    body{font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; margin:0; background:linear-gradient(180deg,#f6f7fb 0%, #eef2f6 100%); color:#111}
+    .wrap{max-width:var(--maxw); margin:28px auto; padding:20px}
+    header{display:flex;align-items:center;gap:18px;padding:18px;background:var(--glass);border-radius:14px;box-shadow:0 6px 20px rgba(16,24,40,0.06)}
+    .logo{width:86px;height:86px;border-radius:8px;display:flex;align-items:center;justify-content:center;color:white;font-weight:700}
+    header h1{margin:0;font-size:20px}
+    header p{margin:4px 0 0;color:var(--muted);font-size:13px}
+
+    nav{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
+    .nav-btn{background:#fff;border:1px solid #e6e9ef;padding:8px 12px;border-radius:8px;font-size:13px;color:var(--accent);cursor:pointer}
+
+    .grid{display:grid;grid-template-columns:1fr 340px;gap:20px;margin-top:20px}
+    .card{background:var(--card);padding:18px;border-radius:12px;box-shadow:0 6px 18px rgba(15,23,42,0.04)}
+
+    h2{margin:0 0 8px 0;color:var(--accent)}
+    h3{margin:0 0 12px 0;font-size:16px}
+    p.lead{color:var(--muted);margin-top:8px}
+
+    table{width:100%;border-collapse:collapse;margin-top:10px}
+    table thead th{background:#f3f6fb;color:#0b5f8a;text-align:left;padding:10px;border-bottom:1px solid #e7eef7}
+    table td,table th{padding:10px;border-bottom:1px solid #f1f5fb;font-size:14px}
+    .small{font-size:13px;color:var(--muted)}
+
+    .contact{display:flex;flex-direction:column;gap:8px}
+    .contact a{color:var(--accent);text-decoration:none}
+
+    @media (max-width:900px){
+      .grid{grid-template-columns:1fr}
+      .logo{width:68px;height:68px}
+    }
+
+    dl{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+    dl dt{font-weight:600;color:#0b5f8a}
+    dl dd{margin:0;color:var(--muted)}
+
+    .badge{display:inline-block;padding:6px 8px;border-radius:999px;background:#eef6fb;color:var(--accent);font-weight:600;font-size:13px}
+
+    footer{margin-top:22px;text-align:center;color:var(--muted);font-size:13px}
+.logo img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">
+  <img src="C:\\Users\\Marija.Malinova\\OneDrive - GFG Alliance\\Desktop\\LOGO\\Liberty_2019_Portrait_RGB_Blue.png" />
+</div>
+      <div>
+        <h1>LIBERTY Skopje — Production Program</h1>
+        <p>Overview of products, technical range and contacts</p>
+        <nav>
+          <button class="nav-btn">Products</button>
+          <button class="nav-btn">Dimensions</button>
+          <button class="nav-btn">Packaging</button>
+          <button class="nav-btn">Contacts</button>
+        </nav>
+      </div>
+    </header>
+
+    <div class="grid">
+      <main>
+        <section class="card">
+          <h2>Products Available</h2>
+          <p class="lead">Organic coated coils and hot dip galvanized sheets/coils</p>
+
+          <h3>1. Steel grades (overview)</h3>
+          <table aria-label="steel grades">
+            <thead>
+              <tr><th>Product Grade</th><th>Description / Remark</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>DX51D+Z</td><td>Low carbon steel for cold forming — EN 10346</td></tr>
+              <tr><td>DX51D CBF +Z</td><td>Low carbon steel suitable for round shapes (limited volume)</td></tr>
+              <tr><td>S220GD +Z, S250GD +Z, S280GD +Z, S320GD +Z, S350GD +Z</td><td>Steels for construction — EN 10346 (S320GD / S350GD limited volumes)</td></tr>
+            </tbody>
+          </table>
+
+          <h3>2. Dimensional ranges</h3>
+          <p class="small">Basic ranges for thickness, width and length — approximate, please contact the mill for details.</p>
+          <table>
+            <thead>
+              <tr><th>Product</th><th>Thickness (mm)</th><th>Width (mm)</th><th>Length (sheets mm)</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Organic coated</td><td>0.30 - 1.0*</td><td>1000 - 1250</td><td>—</td></tr>
+              <tr><td>Hot dip galvanized</td><td>0.30 - 2.5*</td><td>1000 - 1250</td><td>610 - 4880</td></tr>
+            </tbody>
+          </table>
+
+          <p class="small">*Thicknesses below 0.35mm not always available. Widths below 1000mm can be considered on request.</p>
+
+          <h3>3. Coating & Paint systems</h3>
+          <dl>
+            <dt>Zn coating range</dt><dd>Z100 — Z275 (variable)</dd>
+            <dt>Top side coatings</dt><dd>INTELYCOAT / LIFECOAT / SKHDM ... (25–35µ options)</dd>
+            <dt>Back side standard</dt><dd>SKBSC-7 (7030) or other upon agreement</dd>
+            <dt>RAL colors</dt><dd>Standard: 9002, 3009, 8017, 8019, 5010, 9006, 6028 ... Others on request</dd>
+          </dl>
+
+          <h3>4. Packaging & Coil weight</h3>
+          <p class="small">Packaging options: L16 (paper) and L25 (metal). Standard coil weight: Smooth ~12t; Mat ~6t (depending on type).</p>
+
+          <h3>5. Quantity & Transport</h3>
+          <p class="small">Minimum quantities, tolerances and pilot advice: recommended to start with a trial of up to 50 tons for new applications/customers.</p>
+
+          <h3>6. Additional notes</h3>
+          <p class="small">For specifications according to EN 10204, transport questions and special requests — please contact technical support.</p>
+        </section>
+
+        <section class="card" style="margin-top:18px">
+          <h2>Technical highlights</h2>
+          <p class="small">Short technical notes extracted from the document:</p>
+          <ul>
+            <li>For new applications a test period (max 50t) is advised.</li>
+            <li>For thicker gauges and wider widths, please check availability — some are limited volumes.</li>
+            <li>Zn coating and paint type influence packaging and transport.</li>
+          </ul>
+        </section>
+
+      </main>
+
+      <aside>
+        <div class="card">
+          <h2>Contact & Support</h2>
+          <div class="contact">
+            <div><strong>LIBERTY Skopje</strong></div>
+            <div class="small">16 Makedonska Brigada 18, 1000 Skopje</div>
+            <div class="small">T: +389 78257729 | +389 71308621</div>
+            <div class="small">E: <a href="mailto:BalkanSales.Skopje@libertysteelgroup.com">BalkanSales.Skopje@libertysteelgroup.com</a></div>
+            <div class="small">Web: <a href="http://www.libertyskopje.mk">libertyskopje.mk</a></div>
+          </div>
+
+          <hr style="margin:14px 0;border:none;border-top:1px solid #eef3fb">
+
+          <h3>Quick facts</h3>
+          <p class="small"><span class="badge">EN 10346</span> — standards for coated products</p>
+          <p class="small">Cut-to-length for HDG: thickness 0.35–2mm; width 610–1250mm; length up to 4880mm</p>
+        </div>
+
+        <div class="card" style="margin-top:16px">
+          <h3>Downloads / Notes</h3>
+          <p class="small">The original PDF from which this page was created is included in your files. This HTML page is designed for quick preview and presentation. For the full technical sheet — please use the original document.</p>
+        </div>
+      </aside>
+    </div>
+
+    <footer>
+      © LIBERTY Skopje — Production Program · Extracted and synthesized from “Production Program v.08.2025.pdf”
+    </footer>
+  </div>
+</body>
+</html>
